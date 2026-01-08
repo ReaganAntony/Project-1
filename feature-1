@@ -1,0 +1,14 @@
+# app.py  (feature-1 branch)
+
+def greet():
+    print("Welcome to the main branch!")
+    print("This is the stable version of the application.")
+    print("✨ New feature added in feature-1 branch! ✨")  # This line is the new feature
+
+def new_feature():
+    print("This is a new function in feature-1 branch.")
+    print("It can do something extra for the users.")
+
+if __name__ == "__main__":
+    greet()
+    new_feature()  # Call the new feature function
